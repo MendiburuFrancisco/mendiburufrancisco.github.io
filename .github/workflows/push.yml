@@ -1,0 +1,11 @@
+name: Deploy del portfolio
+  on: push: branches: -main
+jobs: 
+  deploy-portfolio: 
+  runs-on: ubuntu-latest
+  steps:
+    -name: Checkout
+     uses: JamesIves/github-pages-deploy-action@4.1.4
+     with:
+        branch: gh-pages
+        folder: public 
