@@ -127,7 +127,7 @@
   right: 0;
   margin: auto;
   width: 45px;
-  height: 45px;
+  height: 60px;
   line-height: 45px;
   text-align: center;
   border-radius: 50%;
@@ -136,7 +136,43 @@
   cursor: pointer;
   z-index: 10;
 }
+ 
+.floating-contact {
+  position:absolute;
+  bottom: 140px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 200px;
+  height: 45px;
+  line-height: 45px;
+  text-align:center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 10;
+}
 
+.contact-pointer{
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.123);
+  border-radius: 100%;
+  width: 50px; 
+ 
+}
+.contact-pointer:hover {
+  
+  position:relative;
+ 
+  left: 5;
+  right: 0;
+  height: 45px;
+  color: red;
+  font-size: 34px;
+  text-decoration: none;
+ 
+}
 
 .page-about {
   background-color: #fff;
