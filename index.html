@@ -19,23 +19,25 @@
 
   <link rel="stylesheet" type="text/css" href=" assets/css/themify-icons.css">
 
-  <link rel="stylesheet" type="text/css" href=" assets/css/bootstrap.css"> 
-  
+  <link rel="stylesheet" type="text/css" href=" assets/css/cards.css">
+
+  <link rel="stylesheet" type="text/css" href=" assets/css/bootstrap.css">
+
   <link rel="stylesheet" type="text/css" href=" assets/vendor/animate/animate.css">
-  
+
   <link rel="stylesheet" type="text/css" href=" assets/vendor/owl-carousel/owl.carousel.css">
-  
+
   <link rel="stylesheet" type="text/css" href=" assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
-  
+
   <link rel="stylesheet" type="text/css" href=" assets/vendor/nice-select/css/nice-select.css">
-  
+
   <link rel="stylesheet" type="text/css" href=" assets/vendor/fancybox/css/jquery.fancybox.min.css">
-  
+
   <link rel="stylesheet" type="text/css" href=" assets/css/virtual.css">
-  
-   
-    <link rel="stylesheet" type="text/css" href=" assets/css/topbar.virtual.css">
-  
+
+
+  <link rel="stylesheet" type="text/css" href=" assets/css/topbar.virtual.css">
+
 </head>
 
 <body style="background-color:rgb(246, 246, 246)">
@@ -50,13 +52,16 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Introducción</a>
+            <a class="nav-link active" aria-current="page" href="#home" data-animate="scrolling">Introducción</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
+            <a class="nav-link active" href="#proyectos" data-animate="scrolling">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Educación</a>
+            <a class="nav-link active" href="#educacion" data-animate="scrolling">Educación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contacto" data-animate="scrolling">Contacto</a>
           </li>
         </ul>
         <span class="navbar-text">
@@ -71,21 +76,24 @@
       <h5 class="fw-normal">Bienvenido</h5>
       <h1 class="fw-light mb-4">Soy <b class="fg-theme">Francisco</b> Mendiburu</h1>
       <div class="badge blue">Estudiante de Ingeniería en Sistemas</div>
-     
-        <div class="floating-contact d-flex justify-content-around">
-            <a class="contact-pointer" href="https://www.linkedin.com/in/mendiburufrancisco/" target="_blank"><span class="ti-linkedin "></span></a> 
-            <a class="contact-pointer"href="https://github.com/MendiburuFrancisco" target="_blank"><span class="ti-github"> </span></a> 
-            <a class="contact-pointer" href=" https://wa.me/543773628407" target="_blank"> <span class="ti-comment"></span> </div> </a>
-      
 
-      
+      <div class="floating-contact d-flex justify-content-around">
+        <a class="contact-pointer" href="https://www.linkedin.com/in/mendiburufrancisco/" target="_blank"><span
+            class="ti-linkedin "></span></a>
+        <a class="contact-pointer" href="https://github.com/MendiburuFrancisco" target="_blank"><span class="ti-github">
+          </span></a>
+        <a class="contact-pointer" href=" https://wa.me/543773628407" target="_blank"> <span class="ti-comment"></span>
+      </div> </a>
+
+
+
       <br>
       <div class="floating-button"><span class="ti-arrow-down"></span></div>
   </div>
 
   </section>
   </div>
-  <section class=" wow fadeInUp">
+  <section class=" wow fadeInUp" id="proyectos">
     <p class="text text-center  fw-normal " style="font-size:38px;">Proyectos</p>
     <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
       <button class="btn btn-theme-outline selected" data-filter="*">Todo</button>
@@ -99,60 +107,61 @@
     </div>
 
     <div class=" container card-group sm-1 wow fadeInUp">
+      <a class="card-full-link" href="html\proyectos\Ferreteria.html" target="_blank">
 
-      <div class="row d-flex justify-content-center ">
-        <div class="card mx-3 my-2" style="width: 18rem;">
-          <img src="https://i0.wp.com/13.36.40.19/wp-content/uploads/2021/04/laravel.jpeg?fit=1200%2C630&ssl=1"
-            class="card-img-top" alt="...">
-          <div class="card-body" style="background-color: black;">
-            <h5 class="card-title" style="color: white;">Ferretería</h5>
-            <p class="card-text" style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              sequi minus accusanti </p>
+        <div class="row d-flex justify-content-center ">
+          <div class="card mx-3 my-2" style="width: 18rem;">
+            <img src="https://i0.wp.com/13.36.40.19/wp-content/uploads/2021/04/laravel.jpeg?fit=1200%2C630&ssl=1"
+              class="card-img-top" alt="...">
+            <div class="card-body card-body-color">
+              <h5 class="card-title" style="color: white;">Ferretería</h5>
+              <p class="card-text" style="color:white;">Página web que permite la realización y gestión de pedidos y productos </p>
+            </div>
           </div>
-        </div>
+      </a>
 
+      <a class="card-full-link" href="html\proyectos\Ferreteria.html" target="_blank">
         <div class="card mx-3 my-2" style="width: 18rem;">
           <img src="https://i0.wp.com/13.36.40.19/wp-content/uploads/2021/04/laravel.jpeg?fit=1200%2C630&ssl=1"
             class="card-img-top" alt="...">
-          <div class="card-body" style="background-color: black;">
+          <div class="card-body card-body-color">
             <h5 class="card-title" style="color: white;">Autogestión alumnos</h5>
-            <p class="card-text" style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              sequi minus accusanti </p>
+            <p class="card-text" style="color:white;">Programa y página web que permite gestionar de manera completa lo relacionado a una facultad</p>
           </div>
         </div>
-
+      </a>
+      <a class="card-full-link" href="https://github.com/GinoBartolucci/Net-TP2-Grupo1/" target="_blank">
         <div class="card mx-3 my-2" style="width: 18rem;">
           <img src="https://i0.wp.com/13.36.40.19/wp-content/uploads/2021/04/laravel.jpeg?fit=1200%2C630&ssl=1"
             class="card-img-top" alt="...">
-          <div class="card-body" style="background-color: black;">
+          <div class="card-body card-body-color">
             <h5 class="card-title" style="color: white;">Consultora médica</h5>
-            <p class="card-text" style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              sequi minus accusanti </p>
+            <p class="card-text" style="color:white;"> Gestión de pacientes y médicos para una consultora, donde ocupo POO </p>
           </div>
         </div>
+      </a>
 
-
+      <a class="card-full-link" href="" target="_blank">
         <div class="card mx-3 my-2" style="width: 18rem;">
           <img src="https://i0.wp.com/13.36.40.19/wp-content/uploads/2021/04/laravel.jpeg?fit=1200%2C630&ssl=1"
             class="card-img-top" alt="...">
-          <div class="card-body" style="background-color: black;">
+          <div class="card-body card-body-color">
             <h5 class="card-title" style="color: white;">Portfolio</h5>
-            <p class="card-text" style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              sequi minus accusanti </p>
+            <p class="card-text" style="color:white;"> Proyecto realizado para la presentación de una forma más profesional del CV</p>
           </div>
         </div>
-
+      </a>
+      <a class="card-full-link" href="https://docs.google.com/presentation/d/1s7Bbo57TgcvFjsMxGvzXWNUefv0JNVXh6oznQMccfU4/edit?usp=sharing" target="_blank">
         <div class="card mx-3 my-2" style="width: 18rem;">
           <img src="https://i0.wp.com/13.36.40.19/wp-content/uploads/2021/04/laravel.jpeg?fit=1200%2C630&ssl=1"
             class="card-img-top" alt="...">
-          <div class="card-body" style="background-color: black;">
+          <div class="card-body card-body-color">
             <h5 class="card-title" style="color: white;">Safetypet</h5>
-            <p class="card-text" style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              sequi minus accusanti </p>
+            <p class="card-text" style="color:white;"> Caso de estudio, y diseño de una aplicación para el cuidado correcto de las mascotas </p>
           </div>
         </div>
-
-      </div>
+      </a>
+    </div>
 
 
 
@@ -164,22 +173,23 @@
   <div class="py-4" style="background-color: white;">
 
     <section class="container  wow fadeInUp">
-      <p class="text text-center  fw-normal " style="font-size:38px;">Acerca de mí</p>
+      <p class="text text-center  fw-normal " style="font-size:38px;" id="educacion">Acerca de mí</p>
       <br />
       <div class="row">
 
         <aside class="  col-md-6   wow fadeInLeft">
-          <img class="mx-auto mb-5 d-block img-fluid" src="assets\img\photo_cv.png" alt="Foto de CV de Francisco Mendiburu"
-            width="200" height="200">
+          <img class="mx-auto mb-5 d-block img-fluid" src="assets\img\photo_cv.png"
+            alt="Foto de CV de Francisco Mendiburu" width="200" height="200">
         </aside>
-        
-        
+
+
         <article class=" col-md-6  wow fadeInRight">
           <h3>Mendiburu Francisco</h3>
           <h4 style="color: violet;">Estudiante de ingeniería en Sistemas</h4>
           <p class="text text-left">
             Busco mi primera experiencia en el campo IT para seguir profundizando los conocimientos y lenguajes
-            aprendidos tanto en la facultad como por cuenta propia, con el fin de beneficiar a la organización y desarrollarme
+            aprendidos tanto en la facultad como por cuenta propia, con el fin de beneficiar a la organización y
+            desarrollarme
             profesionalmente.
           </p>
         </article>
@@ -203,10 +213,10 @@
                    background-color: red; 
                    border-radius: 100%; 
                    width: 30px; height: 30px;">
-                 
-                   <span class="material-icons" style="color:white; position: relative; left:2.5px; top:2px; ">
-                    school
-                    </span>
+
+              <span class="material-icons" style="color:white; position: relative; left:2.5px; top:2px; ">
+                school
+              </span>
             </div>
 
             <div style=" margin:14px; background-color: red; width: 2px; height: 20%;"></div>
@@ -319,18 +329,18 @@
   </section>
 
   <section class="container d-flex justify-content-center  mt-5 wow fadeInUp">
- 
+
   </section>
-  <div class="vg-page page-contact" id="contact">
+  <div class="vg-page page-contact" id="contacto">
     <div class="container-fluid">
       <div class="text-center wow fadeInUp">
         <div class="badge badge-subhead">Contacto</div>
       </div>
       <h1 class="text-center fw-normal wow fadeInUp">Estemos en contacto</h1>
       <div class="row py-5">
-        
-        
- 
+
+
+
         <form class="vg-contact-form">
           <div class="form-row">
             <div class="col-12 mt-3 wow fadeInUp">
@@ -339,21 +349,21 @@
             <div class="col-6 mt-3 wow fadeInUp">
               <input class="form-control" type="text" name="Email" placeholder="Email Address">
             </div>
-            
+
             <div class="col-6 mt-3 wow fadeInUp">
               <input class="form-control" type="text" name="Subject" placeholder="Subject">
             </div>
             <div class="col-12 mt-3 wow fadeInUp">
               <textarea class="form-control" name="Message" rows="6" placeholder="Enter message here.."></textarea>
             </div>
-            
+
             <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>
           </div>
         </form>
 
-      
+
       </div>
-  
+
     </div>
   </div> <!-- End Contact -->
 
@@ -401,8 +411,10 @@
   <script src=" assets/vendor/waypoints/jquery.waypoints.min.js"></script>
 
   <script src=" assets/js/topbar-virtual.js"></script>
- 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
   <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 </body>
 
