@@ -1,0 +1,210 @@
+.badge-subhead{
+    margin-bottom:8px;
+    padding:10px 30px;
+    background-color:rgba(116,116,116,.15);
+    color:#747474;
+    font-size:14px;
+    border-radius:40px
+}
+.filterable-button{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    max-width:400px
+}
+.filterable-button .btn{
+    padding:5px 16px;
+    margin:6px;
+    font-size:14px;
+    border-radius:40px;
+    background-color:transparent;
+    color:#747474;
+    box-shadow:0 0 0 2px #747474;
+    font-weight:700
+}
+.filterable-button .btn:hover{
+    background-color:#747474;
+    color:#fff
+}
+.filterable-button .btn.selected,.filterable-button .btn:focus{
+    background-color:#747474;
+    color:#fff;
+    box-shadow:0 0 0 2px #fff,0 0 0 4px #747474
+}
+.vg-page{
+    position:relative;
+    display:block;
+    padding:80px 0;
+    width:100%;
+    overflow:hidden
+}
+.page-home{
+    padding:25px 0;
+    width:100%;
+    height:700px;
+    z-index:99
+}
+.page-home::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(62,57,57,.8);
+    z-index:-1
+}
+.page-home .navbar{
+    position:absolute;
+    top:auto;
+    left:0;
+    width:100%;
+    padding-top:6px;
+    padding-bottom:6px;
+    background-color:rgba(104,102,102,.8);
+    z-index:99
+}
+.page-home .navbar.floating{
+    top:0;
+    background-color:#343a40
+}
+.page-home .caption-header{
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100%;
+    color:#fff;
+    z-index:10
+}
+.page-home h1{
+    font-size:50px
+}
+.page-home .badge{
+    padding:16px 24px;
+    background-color:var(--theme-third-red);
+    color:var(--theme-red);
+    text-shadow:0 2px 4px rgba(23,25,37,.4);
+    font-size:16px;
+    border-radius:40px
+}
+.page-home .floating-button{
+    position:absolute;
+    bottom:20px;
+    left:0;
+    right:0;
+    margin:auto;
+    width:45px;
+    height:60px;
+    line-height:45px;
+    text-align:center;
+    border-radius:50%;
+    color:#fff;
+    font-size:21px;
+    cursor:pointer;
+    z-index:10
+}
+.floating-contact{
+    position:absolute;
+    bottom:140px;
+    left:0;
+    right:0;
+    margin:auto;
+    width:200px;
+    height:45px;
+    line-height:45px;
+    text-align:center;
+    border-radius:50%;
+    color:#fff;
+    font-size:30px;
+    cursor:pointer;
+    z-index:10
+}
+.contact-pointer{
+    color:#fff;
+    background-color:rgba(0,0,0,.123);
+    border-radius:100%;
+    width:50px
+}
+.contact-pointer:hover{
+    position:relative;
+    left:5;
+    right:0;
+    height:45px;
+    color:var(--theme-red);
+    font-size:34px;
+    text-decoration:none
+}
+.page-blog{
+    background-color:#fff
+}
+.page-contact{
+    background-color:#fff
+}
+.vg-contact-form{
+    margin:0 auto;
+    padding:30px 0;
+    max-width:400px
+}
+.vg-footer{
+    position:relative;
+    display:block;
+    margin:0;
+    padding:50px 0;
+    background-color:#171925;
+    color:#9fa2ab
+}
+.vg-footer .list-unstyled a,.vg-footer .list-unstyled li{
+    margin-bottom:6px;
+    font-size:21px;
+    color:#fff
+}
+.vg-footer .form-control{
+    padding-left:20px;
+    padding-right:20px;
+    background-color:#202334;
+    color:#9fa2ab;
+    border:0;
+    box-shadow:0 2px 8px rgba(16,18,27,.6)
+}
+.vg-footer .form-control:focus{
+    box-shadow:0 2px 8px rgba(16,18,27,.6)
+}
+.vg-footer form .btn-theme{
+    margin:0;
+    padding-top:14px;
+    padding-bottom:14px;
+    box-shadow:none;
+    border-radius:0 4px 4px 0;
+    z-index:9
+}
+.theme-red .badge-subhead{
+    background-color:var(--theme-third-red);
+    color:var(--theme-red)
+}
+.theme-red .filterable-button .btn.selected,.theme-red .filterable-button .btn:focus{
+    background-color:var(--theme-red);
+    color:#fff;
+    box-shadow:0 0 0 2px #fff,0 0 0 4px var(--theme-red)
+}
+.theme-orange .badge-subhead{
+    background-color:rgba(253,125,20,.15);
+    color:var(--theme-orange)
+}
+.theme-orange .filterable-button .btn.selected,.theme-orange .filterable-button .btn:focus{
+    background-color:var(--theme-orange);
+    color:#fff;
+    box-shadow:0 0 0 2px #fff,0 0 0 4px var(--theme-orange)
+}
+.theme-orange .page-home .badge{
+    background-color:rgba(253,125,20,.15);
+    color:var(--theme-orange)
+}
