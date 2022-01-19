@@ -10,8 +10,7 @@
   <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
 
   <title>Portfolio - Mendiburu Francisco</title>
-
-  <link rel="shortcut icon" href=" assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href=" assets/favicon.ico" type="image/x-icon">
   <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
 
 
@@ -33,10 +32,12 @@
 
   <link rel="stylesheet" type="text/css" href=" assets/vendor/fancybox/css/jquery.fancybox.min.css">
 
-  <link rel="stylesheet" type="text/css" href=" assets/css/virtual.css">
+  <link rel="stylesheet" type="text/css" href=" assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href=" assets/css/style2.css">
+  <!--<link rel="stylesheet" type="text/css" href=" assets/css/virtual.css">
 
 
-  <link rel="stylesheet" type="text/css" href=" assets/css/topbar.virtual.css">
+  <link rel="stylesheet" type="text/css" href=" assets/css/topbar.virtual.css"> -->
 
 </head>
 
@@ -74,8 +75,8 @@
   <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_image_1.jpg)">
     <section class="caption-header text-center wow fadeIn">
       <h5 class="fw-normal">Bienvenido</h5>
-      <h1 class="fw-light mb-4">Soy <b class="fg-theme">Francisco</b> Mendiburu</h1>
-      <div class="badge blue">Estudiante de Ingeniería en Sistemas</div>
+      <h1 class="fw-light mb-4">Soy <b class="fg-theme-red">Francisco</b> Mendiburu</h1>
+      <div class="badge">Estudiante de Ingeniería en Sistemas</div>
 
       <div class="floating-contact d-flex justify-content-around">
         <a class="contact-pointer" href="https://www.linkedin.com/in/mendiburufrancisco/" target="_blank"><span
@@ -93,7 +94,7 @@
 
   </section>
   </div>
-  <section class=" wow fadeInUp" id="proyectos">
+  <section class=" py-3 wow fadeInUp" id="proyectos">
     <p class="text text-center  fw-normal " style="font-size:38px;">Proyectos</p>
     <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
       <button class="btn btn-theme-outline selected" data-filter="*">Todo</button>
@@ -110,7 +111,7 @@
       <a class="card-full-link" href="html\proyectos\Ferreteria.html">
 
         <div class="row d-flex justify-content-center ">
-          <div class="card mx-3 my-2" style="width: 18rem;">
+          <div class="card card-completed mx-3 my-2" style="width: 18rem;">
             <img src="assets/img/proyects/ferreteria/thumbnail -browser-mockup-home.png"
               class="card-img-top" alt="...">
             <div class="card-body card-body-color">
@@ -120,18 +121,9 @@
           </div>
       </a>
 
-      <a class="card-full-link" href="html\proyectos\Ferreteria.html" target="_blank">
-        <div class="card mx-3 my-2" style="width: 18rem;">
-          <img src="https://i0.wp.com/13.36.40.19/wp-content/uploads/2021/04/laravel.jpeg?fit=1200%2C630&ssl=1"
-            class="card-img-top" alt="...">
-          <div class="card-body card-body-color">
-            <h5 class="card-title" style="color: white;">Autogestión alumnos</h5>
-            <p class="card-text" style="color:white;">Programa y página web que permite gestionar de manera completa lo relacionado a una facultad</p>
-          </div>
-        </div>
-      </a>
+    
       <a class="card-full-link" href="https://github.com/MendiburuFrancisco/Consultorio" target="_blank">
-        <div class="card mx-3 my-2" style="width: 18rem;">
+        <div class="card card-completed mx-3 my-2" style="width: 18rem;">
           <img src="assets\img\proyects\consultorio\thumbnail-screen-consultas.png"
             class="card-img-top" alt="...">
           <div class="card-body card-body-color">
@@ -140,24 +132,26 @@
           </div>
         </div>
       </a>
-
-      <a class="card-full-link" href="" target="_blank">
-        <div class="card mx-3 my-2" style="width: 18rem;">
-          <img src="https://i0.wp.com/13.36.40.19/wp-content/uploads/2021/04/laravel.jpeg?fit=1200%2C630&ssl=1"
-            class="card-img-top" alt="...">
-          <div class="card-body card-body-color">
-            <h5 class="card-title" style="color: white;">Portfolio</h5>
-            <p class="card-text" style="color:white;"> Proyecto realizado para la presentación de una forma más profesional del CV</p>
-          </div>
-        </div>
-      </a>
+ 
       <a class="card-full-link" href="https://docs.google.com/presentation/d/1s7Bbo57TgcvFjsMxGvzXWNUefv0JNVXh6oznQMccfU4/edit?usp=sharing" target="_blank">
-        <div class="card mx-3 my-2" style="width: 18rem;">
+        <div class="card card-completed mx-3 my-2" style="width: 18rem;">
           <img src="assets\img\proyects\safetypet\thumbnail-mobile-home-blog.png"
             class="card-img-top" alt="...">
           <div class="card-body card-body-color">
             <h5 class="card-title" style="color: white;">Safetypet</h5>
             <p class="card-text" style="color:white;"> Caso de estudio, y diseño de una aplicación para el cuidado correcto de las mascotas </p>
+          </div>
+        </div>
+      </a>
+
+      <a class="card-full-link" href="html\proyectos\Ferreteria.html" target="_blank">
+        <div class="card card-completed mx-3 my-2" style="width: 18rem;">
+          <img src="assets\img\proyects\autogestion_alumnos\Net-framework.png"
+            class="card-img-top" alt="...">
+          <div class="card-body card-body-color">
+            <h5 class="card-title" style="color: white;">Autogestión alumnos</h5>
+            <p class="card-text" style="color:white;">Programa y página web que permite gestionar de manera completa lo relacionado a una facultad</p>
+            <p class="card-text"><strong>En proceso</strong></p>
           </div>
         </div>
       </a>
@@ -210,7 +204,7 @@
 
           <div class="col-1">
             <div style="margin-top:15px; 
-                   background-color: red; 
+                   background-color: var(--theme-red); 
                    border-radius: 100%; 
                    width: 30px; height: 30px;">
 
@@ -219,14 +213,14 @@
               </span>
             </div>
 
-            <div style=" margin:14px; background-color: red; width: 2px; height: 20%;"></div>
+            <div style=" margin:14px; background-color: var(--theme-red); width: 2px; height: 20%;"></div>
 
           </div>
           <div class="col">
             <div class="card" style="width: 100%;">
               <div class="card-body">
                 <h5 class="card-title">Ingeniería en Sistemas</h5>
-                <h6 class="card-subtitle mb-2 text-muted">nov 2021 — <strong style="color: rgb(214, 117, 117);">en
+                <h6 class="card-subtitle mb-2 text-muted">nov 2021 — <strong style="color: var(--theme-second-red);">en
                     curso</strong></h6>
                 <p class="card-text">Universidad
                   Tecnológica Nacional, Rosario</p>
@@ -242,18 +236,18 @@
         <div class="row my-3">
           <div class="col-1">
             <div style="margin-top:15px; 
-                     background-color: red; 
+                     background-color: var(--theme-red); 
                      border-radius: 100%; 
                      width: 20px; height: 20px;">
             </div>
 
-            <div style=" margin:9px; background-color: red; width: 2px; height: 87%;"></div>
+            <div style=" margin:9px; background-color: var(--theme-red); width: 2px; height: 87%;"></div>
           </div>
           <div class="col">
             <div class="card" style="width: 100%;">
               <div class="card-body">
                 <h5 class="card-title">Desarollo Web Full Stack</h5>
-                <h6 class="card-subtitle mb-2 text-muted">nov 2021 —<strong style="color: rgb(214, 117, 117);">en
+                <h6 class="card-subtitle mb-2 text-muted">nov 2021 —<strong style="color: var(--theme-second-red);">en
                     curso</strong></h6>
                 <p class="card-text">Argentina Programa</p>
                 <p class="card-text">Stack: Java, Javascript, Typescript, Github, HTML,CSS y Boostrap</p>

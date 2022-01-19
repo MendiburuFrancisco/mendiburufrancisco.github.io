@@ -1,12 +1,23 @@
 
-.card-full-link
+.card-full-link:hover
 {
     text-decoration: none;
-    box-shadow: blue;
+    
+   
 
 }
 
+.card-completed:hover
+{
+   
+    box-shadow: 0 0.5rem 1rem rgba(73, 73, 73, 0.137) !important;
+}
+ 
 .card-body-color
 {
     background-color: #343a40;
+}
+.card-body-color:hover
+{
+    background-color: #343a40ea;
 }
