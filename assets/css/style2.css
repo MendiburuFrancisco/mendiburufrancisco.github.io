@@ -197,12 +197,12 @@
 }
 .theme-orange .badge-subhead{
     background-color:rgba(253,125,20,.15);
-    color:var(--theme-orange)
+    color:var(--theme-orange);
 }
 .theme-orange .filterable-button .btn.selected,.theme-orange .filterable-button .btn:focus{
     background-color:var(--theme-orange);
     color:#fff;
-    box-shadow:0 0 0 2px #fff,0 0 0 4px var(--theme-orange)
+    box-shadow:0 0 0 2px #fff,0 0 0 4px var(--theme-orange);
 }
 .theme-orange .page-home .badge{
     background-color:rgba(253,125,20,.15);
