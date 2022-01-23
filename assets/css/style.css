@@ -1,10 +1,15 @@
 
 :root{
-    --theme-red:#ef3724;
-    --theme-second-red:rgb(214, 117, 117);
+    --theme-red:#d04a40;
+    /*00a0cc*/
+    /* --theme-red:#d6225a; */ 
+  --theme-second-red:rgb(214, 117, 117);  
+ 
+ 
     --theme-third-red:rgba(239,56,36,.15);
     --theme-orange:#fd7e14;
     --theme-purple:#6f42c1;
+    --icon-skills-pe:20px;
 }
 @font-face{
     font-family:Quicksand;

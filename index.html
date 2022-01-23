@@ -18,6 +18,9 @@
 
   <link rel="stylesheet" type="text/css" href=" assets/css/themify-icons.css">
 
+  <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+  <!--load all styles -->
+
   <link rel="stylesheet" type="text/css" href=" assets/css/cards.css">
 
   <link rel="stylesheet" type="text/css" href=" assets/css/bootstrap.css">
@@ -43,14 +46,14 @@
 
 <body style="background-color:rgb(246, 246, 246)">
 
-  <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Portfolio</a>
+  <nav class="navbar  fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container ">
+      <a class="navbar-brand" href="#" style="color: var(--theme-red); font-size: 25px;">Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarText">
+      <div class="  collapse navbar-collapse nav justify-content-end" style="height: 100%;" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#home" data-animate="scrolling">Introducción</a>
@@ -62,12 +65,15 @@
             <a class="nav-link active" href="#educacion" data-animate="scrolling">Educación</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link active" href="#habilidades" data-animate="scrolling">Habilidades</a>
+          </li>
+        
+          <li class="nav-item">
             <a class="nav-link active" href="#contacto" data-animate="scrolling">Contacto</a>
           </li>
+
         </ul>
-        <span class="navbar-text">
-          ES
-        </span>
+
       </div>
     </div>
   </nav>
@@ -75,15 +81,17 @@
   <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_image_1.jpg)">
     <section class="caption-header text-center wow fadeIn">
       <h5 class="fw-normal">Bienvenido</h5>
-      <h1 class="fw-light mb-4">Soy <b class="fg-theme-red">Francisco</b> Mendiburu</h1>
+      <h1 class="fw-light mb-4">Soy <strong class="fg-theme-red">Francisco</strong> Mendiburu</h1>
       <div class="badge">Estudiante de Ingeniería en Sistemas</div>
 
       <div class="floating-contact d-flex justify-content-around">
         <a class="contact-pointer" href="https://www.linkedin.com/in/mendiburufrancisco/" target="_blank"><span
-            class="ti-linkedin "></span></a>
-        <a class="contact-pointer" href="https://github.com/MendiburuFrancisco" target="_blank"><span class="ti-github">
+            class="ti-linkedin " title="linkedin"></span></a>
+        <a class="contact-pointer" href="https://github.com/MendiburuFrancisco" target="_blank">
+          <span class="fab fa-github" title="github">
           </span></a>
-        <a class="contact-pointer" href=" https://wa.me/543773628407" target="_blank"> <span class="ti-comment"></span>
+        <a class="contact-pointer" href=" https://wa.me/543773628407" target="_blank">
+          <span class="fab fa-whatsapp" title="whatsapp"></span>
       </div> </a>
 
 
@@ -97,7 +105,7 @@
   <section class=" py-3 wow fadeInUp" id="proyectos">
     <p class="text text-center  fw-normal " style="font-size:38px;">Proyectos</p>
     <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
-     <!-- <button class="btn btn-theme-outline selected" data-filter="*">Todo</button>-->
+      <button class="btn btn-theme-outline selected" data-filter="*">Todo</button>
       <button class="btn btn-theme-outline" data-filter=".web">Web</button>
       <button class="btn btn-theme-outline" data-filter=".net">.NET</button>
       <button class="btn btn-theme-outline" data-filter=".ios">Laravel</button>
@@ -112,45 +120,47 @@
 
         <div class="row d-flex justify-content-center ">
           <div class="card card-completed mx-3 my-2" style="width: 18rem;">
-            <img src="assets/img/proyects/ferreteria/thumbnail -browser-mockup-home.png"
-              class="card-img-top" alt="...">
+            <img src="assets/img/proyects/ferreteria/thumbnail -browser-mockup-home.png" class="card-img-top" alt="...">
             <div class="card-body card-body-color">
               <h5 class="card-title" style="color: white;">Ferretería</h5>
-              <p class="card-text" style="color:white;">Página web que permite la realización y gestión de pedidos y productos </p>
+              <p class="card-text" style="color:white;">Página web que permite realizar pedidos y gestionar productos
+              </p>
             </div>
           </div>
       </a>
 
-    
+
       <a class="card-full-link" href="html\proyectos\Consultora.html">
         <div class="card card-completed mx-3 my-2" style="width: 18rem;">
-          <img src="assets\img\proyects\consultorio\thumbnail-screen-consultas.png"
-            class="card-img-top" alt="...">
+          <img src="assets\img\proyects\consultorio\thumbnail-screen-consultas.png" class="card-img-top" alt="...">
           <div class="card-body card-body-color">
             <h5 class="card-title" style="color: white;">Consultoría médica</h5>
-            <p class="card-text" style="color:white;"> Gestión de pacientes y médicos para una consultora, donde ocupo POO </p>
+            <p class="card-text" style="color:white;">Gestión de pacientes y médicos para una consultora, utilizando POO
+            </p>
           </div>
         </div>
       </a>
- 
-      <a class="card-full-link" href="https://docs.google.com/presentation/d/1s7Bbo57TgcvFjsMxGvzXWNUefv0JNVXh6oznQMccfU4/edit?usp=sharing" target="_blank">
+
+      <a class="card-full-link"
+        href="https://docs.google.com/presentation/d/1s7Bbo57TgcvFjsMxGvzXWNUefv0JNVXh6oznQMccfU4/edit?usp=sharing"
+        target="_blank">
         <div class="card card-completed mx-3 my-2" style="width: 18rem;">
-          <img src="assets\img\proyects\safetypet\thumbnail-mobile-home-blog.png"
-            class="card-img-top" alt="...">
+          <img src="assets\img\proyects\safetypet\thumbnail-mobile-home-blog.png" class="card-img-top" alt="...">
           <div class="card-body card-body-color">
             <h5 class="card-title" style="color: white;">Safetypet</h5>
-            <p class="card-text" style="color:white;"> Caso de estudio, y diseño de una aplicación para el cuidado correcto de las mascotas </p>
+            <p class="card-text" style="color:white;"> Caso de estudio y diseño de una aplicación para el correcto
+              cuidado de las mascotas </p>
           </div>
         </div>
       </a>
 
       <a class="card-full-link" href="html\proyectos\Ferreteria.html" target="_blank">
         <div class="card card-completed mx-3 my-2" style="width: 18rem;">
-          <img src="assets\img\proyects\autogestion_alumnos\Net-framework.png"
-            class="card-img-top" alt="...">
+          <img src="assets\img\proyects\autogestion_alumnos\Net-framework.png" class="card-img-top" alt="...">
           <div class="card-body card-body-color">
             <h5 class="card-title" style="color: white;">Autogestión alumnos</h5>
-            <p class="card-text" style="color:white;">Programa y página web que permite gestionar de manera completa lo relacionado a una facultad</p>
+            <p class="card-text" style="color:white;">Programa y página web que permite gestionar de forma completa
+              información relacionada al ámbito facultativo/universitario</p>
             <p class="card-text"><strong>En proceso</strong></p>
           </div>
         </div>
@@ -179,14 +189,17 @@
 
         <article class=" col-md-6  wow fadeInRight">
           <h3>Mendiburu Francisco</h3>
-          <h4 style="color: violet;">Estudiante de ingeniería en Sistemas</h4>
+          <h4 style="color: var(--theme-red);">Estudiante de ingeniería en Sistemas</h4>
           <p class="text text-left">
             Busco mi primera experiencia en el campo IT para seguir profundizando los conocimientos y lenguajes
             aprendidos tanto en la facultad como por cuenta propia, con el fin de beneficiar a la organización y
             desarrollarme
             profesionalmente.
           </p>
+ 
         </article>
+
+
 
       </div>
     </section>
@@ -315,73 +328,148 @@
               <div class="card-body">
                 <h5 class="card-title">Operador de GNU/LINUX</h5>
                 <h6 class="card-subtitle mb-2 text-muted">jul 2019 — sep 2019</h6>
-                <p class="card-text"> Fagdut</p>
+                <p class="card-text"  > Fagdut</p>
               </div>
             </div>
           </div>
         </div>
   </section>
 
-  <section class="container d-flex justify-content-center  mt-5 wow fadeInUp">
+  <section class="skills py-3  mt-5 wow fadeInUp" id="habilidades">
+    <div class="container-fluid fw-normal wow fadeInUp">
+      <div class="pt-5 text-center wow fadeInUp">
+        <div class="badge badge-subhead">Skills</div>
+      </div>
+      <h1 class="text-center fw-normal wow fadeInUp">Habilidades</h1>
+      <div class="py-5   d-flex justify-content-around wow fadeInUp">
+        <div class="row">
+          <div class="col-md wow fadeInUp">
+            <h5>Tecnologías</h5>
 
-  </section> <!--
-  <div class="vg-page page-contact" id="contacto">
-    <div class="container-fluid">
+            <ul class=" ">
+              <li class=" ">
+                <span class=" "> <i class="fab fa-html5 fa-2x icon-cog" style="padding-right: var(--icon-skills-pe); "></i>
+                  HTML
+                </span>
+              </li>
+              <li class=" "><i class="fab fa-css3-alt fa-2x icon-cog " style="  padding-right: var(--icon-skills-pe); "></i>CSS
+              </li>
+              <li class=""><i class="fab fa-microsoft fa-2x icon-cog" style="  padding-right: var(--icon-skills-pe); "></i>.NET</li>
+              <li class=""><i class="fab fa-php fa-2x icon-cog" style="  padding-right: var(--icon-skills-pe); "></i>PHP</li>
+              <li class=""><i class="fab fa-js-square fa-2x  icon-cog"
+                  style="  padding-right: var(--icon-skills-pe);"></i>Javascript</li>
+              <li class=""><i class="fas fa-database fa-2x  icon-cog"
+                  style="  padding-right: var(--icon-skills-pe); "></i>MySQL</li>
+            </ul>
+          </div>
+
+ 
+          <div class="col-md wow fadeInUp">
+            <h5>Habilidades Blandas</h5>
+
+            <ul>
+              <li><i class="fas fa-comments fa-2x  icon-cog"
+                  style="  padding-right: var(--icon-skills-pe); "></i>Comunicación
+              </li>
+              <li class=" "><i class="fas fa-user-tie fa-2x  icon-cog"
+                  style="  padding-right: var(--icon-skills-pe); "></i>Liderazgo</li>
+              <li class=""> <i class="fas fa-water fa-2x icon-cog "
+                  style="  padding-right: var(--icon-skills-pe); "></i> Adaptabilidad
+              </li>
+              <li class=""><i class="fas fa-people-carry fa-2x  icon-cog "
+                  style="  padding-right: var(--icon-skills-pe); "></i>Trabajo en
+                equipo</li>
+              <li class=""><i class="far fa-lightbulb fa-2x icon-cog "
+                  style="  padding-right: var(--icon-skills-pe); ">
+                  <span class="fa-li">
+                </i>Resolución creativa de problemas </span>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="col wow fadeInUp">
+            <h5>Lenguajes</h5>
+            <ul class=" ">
+              <li class=" "><i class="fas fa-globe-europe fa-2x icon-cog"
+                  style="  padding-right: var(--icon-skills-pe); "></i>Español
+                (Nativo)</li>
+              <li class=" "><i class="fas fa-globe-americas fa-2x icon-cog"
+                  style="  padding-right: var(--icon-skills-pe); "></i>Inglés: B1 en
+                grammar y
+                C1 en listening
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+
+        <script defer src="assets/fontawesome/js/all.js"></script>
+        <!--load all styles -->
+
+
+
+      </div>
+
+    </div>
+
+  </section>
+ 
+<section class="px-5 vg-page  page-contact" id="contacto">
+  
+  <div class="container">
       <div class="text-center wow fadeInUp">
         <div class="badge badge-subhead">Contacto</div>
       </div>
-      <h1 class="text-center fw-normal wow fadeInUp">Estemos en contacto</h1>
-      <div class="row py-5">
+      <h1 class="pb-5 text-center fw-normal wow fadeInUp">Información de contacto</h1>
+  
+      <div class="row pt-2  wow fadeInUp icon-cog">
+        <i class="fas fa-envelope-open  fa-2x"></i> 
+        <p class="contacto-end" href="https://www.linkedin.com/in/mendiburufrancisco/" target="_blank">
+          franmendi.fm@gmail.com</p>
+      </div>
 
+      <div class="row pt-2  wow fadeInUp">
+        <i class="fab fa-linkedin-in fa-2x icon-cog"></i> 
+        <p class="contacto-end" href="https://www.linkedin.com/in/mendiburufrancisco/" target="_blank">
+          /Mendiburu Francisco
+        </p>
+ 
+      </div>
 
-
-        <form class="vg-contact-form">
-          <div class="form-row">
-            <div class="col-12 mt-3 wow fadeInUp">
-              <input class="form-control" type="text" name="Name" placeholder="Your Name">
-            </div>
-            <div class="col-6 mt-3 wow fadeInUp">
-              <input class="form-control" type="text" name="Email" placeholder="Email Address">
-            </div>
-
-            <div class="col-6 mt-3 wow fadeInUp">
-              <input class="form-control" type="text" name="Subject" placeholder="Subject">
-            </div>
-            <div class="col-12 mt-3 wow fadeInUp">
-              <textarea class="form-control" name="Message" rows="6" placeholder="Enter message here.."></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>
-          </div>
-        </form>
-
-
+      <div class="row w pt-2  wow fadeInUp">
+        <i class="fab fa-whatsapp fa-2x icon-cog">  </i>
+        <p class="contacto-end" href=" https://wa.me/543773628407" target="_blank"> 
+             +54 3773 628407
+        </p>
       </div>
 
     </div>
-  </div>--> <!-- End Contact --> 
+   
+  </section> <!-- End Contact -->
 
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        <svg class="bi" width="30" height="24">
-          <use xlink:href="#bootstrap"></use>
-        </svg>
-      </a>
-      <span class="text-muted">© 2021 Company, Inc</span>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center border-top"
+    style="background-color: var(--dark); color:white">
+
+    <div class="col-md-9 pt-4">
+      <span class="text text-center ">© 2022 Mendiburu Francisco</span>
     </div>
 
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
-            <use xlink:href="#twitter"></use>
-          </svg></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
-            <use xlink:href="#instagram"></use>
-          </svg></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
-            <use xlink:href="#facebook"></use>
-          </svg></a></li>
-    </ul>
+    <div class="col">
+      <ul class="  py-3   list-unstyled  ">
+        <li class=" col-xl"><a class="" style="color: white;" href="#">
+            <i class="fab fa-whatsapp"></i> 3773 628407
+        </li>
+        <li class="col-xl"><a class="" style="color: white;" href="#">
+            <i class="fas fa-envelope-open"></i> franmendi.fm@gmail.com
+        </li>
+        <li class="col-xl"><a class="" style="color: white;" href="#">
+            <i class="fab fa-github"></i> MendiburuFrancisco
+        </li>
+      </ul>
+    </div>
+   
   </footer>
 
   <script src=" assets/js/jquery-3.5.1.min.js"></script>
