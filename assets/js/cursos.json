@@ -1,17 +1,17 @@
 {
 
     "1":{
-        "curso":"Desarrollo Web Full Stack",
-        "empresa":"Argentina Programa",
-        "stack":"Java, Javascript, Typescript, Github, HTML,CSS y Boostrap",
-        "fecha_inicio":"oct 2021",
-        "fecha_fin":"null"
+        "curso":"Especializacion en React",
+        "empresa":"Codo a Codo 4.0",
+        "stack":"Javascript, HTML,CSS y React",
+        "fecha_inicio":"mar 2022",
+        "fecha_fin":"oct 2022"
 
      },
    "2":{
         "curso":"Desarrollo Web Full Stack",
         "empresa":"Neoris",
-        "stack":"PHP, Javascript, Typescript, Laravel, Angular, HTML,CSS y Boostrap",
+        "stack":"PHP, Javascript, Laravel, Angular, HTML,CSS y Boostrap",
         "fecha_inicio":"oct 2021",
         "fecha_fin":" dic 2021"
      },
