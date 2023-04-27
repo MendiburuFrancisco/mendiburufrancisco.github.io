@@ -11,7 +11,7 @@ const cards = {
         img: 'assets/img/proyects/ferreteria/thumbnail -browser-mockup-home.png',
         link: 'html\\proyectos\\Ferreteria.html',
         state : 'completed',
-        tag : 'Web HTML CSS JS PHP MySQL Laravel'
+        tag : 'Web HTML/CSS  PHP/Laravel MySQL'
     },
     2: {
         title: 'Consultoría médica',
@@ -33,9 +33,9 @@ const cards = {
         title: 'Autogestión alumnos',
         description: 'Programa y página web que permite gestionar de forma completa información relacionada al ámbito facultativo/universitario',
         img: 'assets/img/proyects/autogestion_alumnos/Net-framework.png',
-        link: '',
+        link: 'https://github.com/GinoBartolucci/Net-TP2-Grupo1/tree/Master/',
         sate: 'in-progress',
-        tag : 'Web .NET HTML CSS   SQL'
+        tag : 'Web .NET HTML/CSS   SQL'
     } 
     
 
