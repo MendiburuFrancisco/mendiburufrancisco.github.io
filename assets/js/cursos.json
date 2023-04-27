@@ -1,0 +1,35 @@
+{
+
+    "1":{
+        "curso":"Desarrollo Web Full Stack",
+        "empresa":"Argentina Programa",
+        "stack":"Java, Javascript, Typescript, Github, HTML,CSS y Boostrap",
+        "fecha_inicio":"oct 2021",
+        "fecha_fin":"null"
+
+     },
+   "2":{
+        "curso":"Desarrollo Web Full Stack",
+        "empresa":"Neoris",
+        "stack":"PHP, Javascript, Typescript, Laravel, Angular, HTML,CSS y Boostrap",
+        "fecha_inicio":"oct 2021",
+        "fecha_fin":" dic 2021"
+     },
+    "3":{
+        "curso":"Diseñador UX/UI",
+        "empresa":"Coderhouse",
+        "stack":"",
+        "fecha_inicio":"jul 2020",
+        "fecha_fin":"oct 2020"
+    },
+    "4":{
+        "curso":"Operador de GNU/LINUX",
+        "empresa":"Fagdut",
+        "stack":"",
+        "fecha_inicio":"jul 2019",
+        "fecha_fin":"sep 2019"
+    }
+        
+
+
+}

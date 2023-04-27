@@ -1,0 +1,34 @@
+{
+    "1": {
+    "title": "Ferretería",
+    "description": "Página web que permite realizar pedidos y gestionar productos",
+    "img": "assets/img/proyects/ferreteria/thumbnail -browser-mockup-home.png",
+    "link": "html\\proyectos\\Ferreteria.html",
+    "state": "completed",
+    "tag": "Web HTML CSS PHP MySQL Laravel"
+    },
+    "2": {
+    "title": "Consultoría médica",
+    "description": "Gestión de pacientes y médicos para una consultora, utilizando POO",
+    "img": "assets/img/proyects/consultorio/thumbnail-screen-consultas.png",
+    "link": "html\\proyectos\\Consultora.html",
+    "state": "completed",
+    "tag": ".NET SQL"
+    },
+    "3": {
+    "title": "Safetypet",
+    "description": "Caso de estudio y diseño de una aplicación para el correcto cuidado de las mascotas",
+    "img": "assets/img/proyects/safetypet/thumbnail-mobile-home-blog.png",
+    "link": "https://docs.google.com/presentation/d/1s7Bbo57TgcvFjsMxGvzXWNUefv0JNVXh6oznQMccfU4/edit?usp=sharing",
+    "state": "completed",
+    "tag": "UX/UI"
+    },
+    "4": {
+    "title": "Autogestión alumnos",
+    "description": "Programa y página web que permite gestionar de forma completa información relacionada al ámbito facultativo/universitario",
+    "img": "assets/img/proyects/autogestion_alumnos/Net-framework.png",
+    "link": "",
+    "state": "in-progress",
+    "tag": "Web .NET HTML CSS SQL"
+    }
+    }
